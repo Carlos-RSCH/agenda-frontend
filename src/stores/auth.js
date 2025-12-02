@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-const API_BASE = 'http://localhost:8000/api'
+const API_BASE = 'https://backend-grupo03-agendacontactos.liveblog365.com/api'
 
 export const useAuthStore = defineStore('auth', {
   state: () => ({
